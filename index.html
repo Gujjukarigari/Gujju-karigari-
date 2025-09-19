@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gujju Karigari — Handmade Jewellery</title>
+  <style>
+    :root{
+      --accent:#b30000;
+      --bg:#fffaf5;
+      --card:#ffffff;
+      --muted:#666;
+      --shadow: 0 8px 18px rgba(0,0,0,0.08);
+      --round:14px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background:var(--bg);
+      color:#222;
+      -webkit-font-smoothing:antialiased;
+      text-align:center;
+    }
+    header{
+      background:var(--accent);
+      color:#fff;
+      padding:24px 12px;
+      font-size:28px;
+      font-weight:700;
+    }
+    header small{display:block;font-weight:400;font-size:14px;margin-top:6px;opacity:0.95}
+    .wrap{max-width:900px;margin:28px auto;padding:0 16px;}
+    h1{font-size:28px;margin:8px 0 18px}
+    p.lead{color:var(--muted);margin:0 0 26px}
+    .card{
+      background:var(--card);
+      border-radius:var(--round);
+      box-shadow:var(--shadow);
+      padding:28px;
+      margin:18px auto;
+      max-width:720px;
+      text-align:center;
+    }
+    .card h2{margin:0 0 10px;font-size:20px}
+    .card p{margin:0;color:var(--muted)}
+    .contact{
+      display:block;
+      margin-top:12px;
+      color:#222;text-decoration:none;font-weight:600;
+    }
+    footer{
+      margin:38px 0 60px;color:#fff;background:#222;padding:18px 12px;border-radius:10px 10px 0 0;
+    }
+    .footer-inner{max-width:900px;margin:0 auto;padding:0 16px}
+    .small{font-size:14px;color:#ddd}
+    /* responsive tweaks */
+    @media(min-width:700px){
+      header{font-size:34px;padding:32px}
+      .card{padding:36px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    ✨ Gujju Karigari ✨
+    <small>Handmade Jewellery with Love</small>
+  </header>
+
+  <main class="wrap">
+    <h1>Welcome to Gujju Karigari</h1>
+    <p class="lead">Beautiful handcrafted jewellery — unique, made with care and tradition.</p>
+
+    <section class="card" aria-labelledby="shop">
+      <h2 id="shop">Handmade Jewellery</h2>
+      <p>Unique designs for your special moments. (Products coming soon — pictures and catalog will be added.)</p>
+    </section>
+
+    <section class="card" aria-labelledby="contact">
+      <h2 id="contact">Contact Us</h2>
+      <p class="small">Phone / WhatsApp</p>
+      <a class="contact" href="tel:+916353178378">+91 63531 78378</a>
+      <p class="small" style="margin-top:10px">Email</p>
+      <a class="contact" href="mailto:gujjukarigari@gmail.com">gujjukarigari@gmail.com</a>
+    </section>
+
+    <section class="card" aria-labelledby="info">
+      <h2 id="info">About</h2>
+      <p>Handmade jewellery & rakhi made by local artisans. We craft each piece with attention to detail.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="small">© 2025 Gujju Karigari</div>
+    </div>
+  </footer>
+</body>
+</html>
